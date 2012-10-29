@@ -1,0 +1,190 @@
+body {
+	background-color: rgb( 250, 250, 250 );
+	color: rgb( 50, 50, 50 );
+	font-family: Verdana, Tahoma, Arial, Sans-serif;
+	font-size: 10pt;
+}
+input, textarea {
+	font-family: Verdana, Tahoma, Arial, Sans-serif;
+	font-size: 10pt;
+}
+h1 {
+	margin: 5px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	font-weight: normal;
+	font-size: 26pt;
+	color: rgb( 0, 0, 150 );
+	text-align: left;
+	text-indent: 150px;
+}
+a {
+	color: rgb( 0, 0, 150 );
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+hr.clear {
+	display: block;
+	border: none;
+	clear: both;
+	height: 0;
+	width: auto;
+}
+.pic {
+	display: block;
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid gray;
+	padding: 5px;
+	position: relative;
+}
+.mediawrap {
+	width: 920px;
+	height: 612px;
+}
+.mediaimage {
+	width: 612px;
+	height: 612px;
+	float: left;
+	overflow: hidden;
+}
+.mediacomments {
+	width: 300px;
+	height: 612px;
+	float: right;
+	overflow: auto;
+}
+.comment {
+	position: relative;
+	width: 270px;
+	border-bottom: 1px solid #CCCCCC;
+	overflow: hidden;
+	padding: 0 5px 5px 0;
+	margin: 0 0 5px 5px;
+}
+.profile_picture { 
+	width: 30px;
+	float: left;
+}
+.profile_picture img {
+	height: 30px;
+	width: 30px;
+}
+.commenttext {
+	width: 230px;
+	float: right;
+}
+.commentdate {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	vertical-align: middle;
+	opacity:0.0;
+	text-align: right;
+}
+.likes {
+	position: relative;
+	margin-left: 45px;
+	margin-bottom: 20px;
+	clear: both;
+}
+.likes > .herz {
+	position: absolute;
+	top: 0px;
+	left: -40px;
+}
+.likes .like {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 0 5px 5px 0;
+}
+
+#tagcloud {
+	margin-top: 10px;
+	border-top: 1px solid #CCCCCC;
+	padding: 10px;
+	text-align: center;
+}
+#tagcloud a {
+	color: rgb( 50, 50, 50 );
+	text-decoration: none;
+}
+#tagcloud a:hover {
+	color: rgb( 250, 250, 250 );
+	background-color: rgb( 0, 0, 150 );
+	text-decoration: none;
+}
+#tagcloud a.selected {
+	color: rgb( 250, 250, 250 );
+	background-color: rgb( 0, 0, 150 );
+}
+#tagcloud a.selected:hover {
+	color: rgb( 0, 0, 150 );
+	background-color: rgb( 250, 250, 250 );
+	text-decoration: none;
+}
+#tags {
+	width: 600px;
+	margin: auto;
+}
+
+#footer {
+	margin-top: 10px;
+	border-top: 1px solid #DDDDDD;
+	padding: 5px;
+	color: #AAAAAA;
+	font-size: 8pt;
+	text-align: center;
+}
+#footer a {
+	color: #AAAAAA;
+}
+
+.bltag {
+	border: 1px solid #DDDDDD;
+	padding: 2px;
+	margin-right: 5px;
+}
+
+.bltag > a {
+	border: 1px solid #DDDDDD;
+	text-decoration: none;
+	color: red;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-left: 5px;
+}
+
+.imageblacklist {
+	position: absolute;
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 140px;
+	text-align: right;
+	padding: 5px;
+	display: none;
+}
+
+.blacklisted {
+	position: absolute;
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 140px;
+	text-align: right;
+	padding: 5px;
+	bottom: 5px;
+}
+
+/* Override to display navigation arrows permanently and move them outside the image area */
+#fancybox-left-ico, #fancybox-left:hover span { left: -20px; }
+#fancybox-right-ico, #fancybox-right:hover span { right: -20px; left: auto; }

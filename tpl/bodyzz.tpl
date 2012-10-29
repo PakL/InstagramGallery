@@ -1,0 +1,1 @@
+		<div id="footer">InstagramGallery by <a href="http://pakldev.de" target="_blank">paklDev</a></div>
