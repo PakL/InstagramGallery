@@ -6,7 +6,8 @@ InstagramGallery is a open source project by Pascal Pohl.
 This program is using [fancyBox2](http://fancyapps.com/fancybox/) and is included in the releases below.
 
 Downloads:
-* Latest: [v1.1.6](https://dl.dropbox.com/u/16631598/InstagramGallery/InstagramGallery1.1.6.zip)
+* Latest: [v1.1.7](https://dl.dropbox.com/u/16631598/InstagramGallery/InstagramGallery1.1.7.zip)
+* [v1.1.6](https://dl.dropbox.com/u/16631598/InstagramGallery/InstagramGallery1.1.6.zip)
 * [v1.1.5](https://dl.dropbox.com/u/16631598/InstagramGallery/InstagramGallery1.1.5.zip)
 * [v1.1.4a](https://dl.dropbox.com/u/16631598/InstagramGallery/InstagramGallery1.1.4a.zip)
 * [v1.1.4] - No longer avaiable
